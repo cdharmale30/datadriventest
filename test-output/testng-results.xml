@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61769" started-at="2018-11-10T17:53:52Z" finished-at="2018-11-10T17:54:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61769" started-at="2018-11-10T17:53:52Z" finished-at="2018-11-10T17:54:53Z">
+      <class name="com.datadriventest.HalfEbayTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriventest.HalfEbayTest@4cc0edeb]" name="setUp" is-config="true" duration-ms="25104" started-at="2018-11-10T09:53:54Z" finished-at="2018-11-10T09:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ebayRegisterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriventest.HalfEbayTest@4cc0edeb]" name="ebayRegisterData" duration-ms="1990" started-at="2018-11-10T09:54:19Z" data-provider="getTestData" finished-at="2018-11-10T09:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chetan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dharmale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cdharmale30@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wapking1306]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebayRegisterData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriventest.HalfEbayTest@4cc0edeb]" name="tearDown" is-config="true" duration-ms="296" started-at="2018-11-10T09:54:21Z" finished-at="2018-11-10T09:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriventest.HalfEbayTest@4cc0edeb]" name="setUp" is-config="true" duration-ms="15661" started-at="2018-11-10T09:54:21Z" finished-at="2018-11-10T09:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ebayRegisterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriventest.HalfEbayTest@4cc0edeb]" name="ebayRegisterData" duration-ms="1723" started-at="2018-11-10T09:54:37Z" data-provider="getTestData" finished-at="2018-11-10T09:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cook]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[timcook@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pass123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebayRegisterData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriventest.HalfEbayTest@4cc0edeb]" name="tearDown" is-config="true" duration-ms="231" started-at="2018-11-10T09:54:39Z" finished-at="2018-11-10T09:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriventest.HalfEbayTest@4cc0edeb]" name="setUp" is-config="true" duration-ms="12517" started-at="2018-11-10T09:54:39Z" finished-at="2018-11-10T09:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ebayRegisterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriventest.HalfEbayTest@4cc0edeb]" name="ebayRegisterData" duration-ms="1687" started-at="2018-11-10T09:54:52Z" data-provider="getTestData" finished-at="2018-11-10T09:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Janrao]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[daware]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[janraodavare@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pass*765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebayRegisterData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriventest.HalfEbayTest@4cc0edeb]" name="tearDown" is-config="true" duration-ms="193" started-at="2018-11-10T09:54:53Z" finished-at="2018-11-10T09:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.datadriventest.HalfEbayTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
