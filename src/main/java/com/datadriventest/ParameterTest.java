@@ -21,7 +21,8 @@ public class ParameterTest {
 		Xls_Reader reader = new Xls_Reader("I:\\All Eclipse Code6\\DataDriven\\testdata.xlsx");
 		int rowCount = reader.getRowCount("RegisterData");
 		System.out.println(rowCount);
-		reader.addColumn("RegisterData", "status");
+		// To add single coloumn with name status
+		reader.addColumn("RegisterData", "Status");
 		for (int rowNum = 2; rowNum <= rowCount; rowNum++) {
 
 			String firstName = reader.getCellData("RegisterData", "firstname", rowNum);
@@ -33,22 +34,21 @@ public class ParameterTest {
 			String eMail = reader.getCellData("RegisterData", "email", rowNum);
 			System.out.println(eMail);
 
-			/*String passWord = reader.getCellData("RegisterData", "password", rowNum);
-			System.out.println(passWord);*/
+			String passWord = reader.getCellData("RegisterData", "password", rowNum);
+			System.out.println(passWord);
 
 			driver.findElement(By.xpath("//input[@id='firstname']")).clear();
 			driver.findElement(By.xpath("//input[@id='firstname']")).sendKeys(firstName);
 			driver.findElement(By.xpath("//input[@id='lastname']")).clear();
-			
-			
+
 			driver.findElement(By.xpath("//input[@id='lastname']")).sendKeys(lastName);
 			driver.findElement(By.xpath("//input[@id='email']")).clear();
 			driver.findElement(By.xpath("//input[@id='email']")).sendKeys(eMail);
-		/*	driver.findElement(By.xpath("//input[@id='PASSWORD']")).clear();
+			driver.findElement(By.xpath("//input[@id='PASSWORD']")).clear();
 			driver.findElement(By.xpath("//input[@id='PASSWORD']")).sendKeys(passWord);
-			*/
+
 			driver.findElement(By.xpath("//button[@id='ppaFormSbtBtn']")).click();
-          reader.setCellData("RegisterData", "status", rowNum, "pass");
+			reader.setCellData("RegisterData", "Status", rowNum, "Pass");//write data into cell
 		}
 	}
 

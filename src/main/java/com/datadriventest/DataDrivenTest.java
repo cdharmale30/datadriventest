@@ -13,6 +13,8 @@ public class DataDrivenTest {
 		// driver= new FirefoxDriver();
 		// driver.get("https://reg.ebay.com/reg/PartialReg?ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Debay%2Bfor%26ul_noapp%3Dtrue");
 		System.out.println(1);
+		//read data from xl file
+		///Re
 		Xls_Reader reader = new Xls_Reader("I:\\All Eclipse Code6\\DataDriven\\testdata.xlsx");
 		String firstname = reader.getCellData("RegisterData", "firstname", 2);
 		System.out.println(firstname);
@@ -32,6 +34,7 @@ public class DataDrivenTest {
 
 		WebDriver driver = new FirefoxDriver();
 		
+		//enter the data 		
 
 		driver.get("https://reg.ebay.com/reg/PartialReg?ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Debay%2Bfor%26ul_noapp%3Dtrue");
 		System.out.println(88888);
