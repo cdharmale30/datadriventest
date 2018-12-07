@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.datadriventest.HalfEbayTest"/>
-    </classes>
-  </test> <!-- Test -->
+	<test name="Test">
+		<parameter name="url" value="https://login.yahoo.com/"></parameter>
+		<parameter name="email" value="cdharmale30@gmail.com"></parameter>
+		<classes>
+			<class name="com.datadriventest.ParameterTestTestNG" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
